@@ -1,14 +1,14 @@
 {
-    "name": "bitpay/php-client",
+    "name": "ndeet/php-bitpay-client-legacy",
     "description": "PHP Library to work with the new cryptographically secure BitPay API",
     "license": "MIT",
     "minimum-stability": "stable",
     "keywords": ["bitpay", "bitcoin"],
-    "homepage": "https://github.com/bitpay/php-bitpay-client",
+    "homepage": "https://github.com/ndeet/php-bitpay-client-legacy",
     "support": {
         "email": "support+php@bitpay.com",
-        "issues": "https://github.com/bitpay/php-bitpay-client/issues",
-        "source": "https://github.com/bitpay/php-bitpay-client"
+        "issues": "https://github.com/ndeet/php-bitpay-client-legacy/issues",
+        "source": "https://github.com/ndeet/php-bitpay-client-legacy"
     },
     "authors": [
         {
