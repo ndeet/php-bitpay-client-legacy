@@ -28,8 +28,8 @@
         "ext-curl": "*",
         "ext-json": "*",
         "ext-openssl": "*",
-        "symfony/config": "^2.3 || ^3.0 || ^4.0",
-        "symfony/dependency-injection": "^2.3 || ^3.0 || ^4.0"
+        "symfony/config": "^2.3 || ^3.0 || ^4.0 || ^6.2",
+        "symfony/dependency-injection": "^2.3 || ^3.0 || ^4.0 || ^6.2"
     },
     "require-dev": {
         "behat/behat": "2.5.*@stable",
