@@ -1,1 +1,1 @@
-# This repository is no longer maintained and it will be archived by the end of 2019, please refer to the latest version [Here](https://github.com/bitpay/php-bitpay-client-v2)
+## Fork of BitPay repository which got abandoned 2019. Maintained to keep the legacy api used by BTCPay Server working for the [BTCPay for Drupal Commerce 2 module](https://www.drupal.org/project/commerce_btcpay) until there is a Greenfield based implementation.
