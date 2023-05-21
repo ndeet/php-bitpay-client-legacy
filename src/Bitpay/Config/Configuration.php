@@ -24,8 +24,9 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode    = $treeBuilder->root('bitpay');
+        $treeBuilder = new TreeBuilder('bitpay');
+        $rootNode    = $treeBuilder->getRootNode();
+
         $rootNode
             ->children()
                 ->scalarNode('public_key')
@@ -69,8 +70,8 @@ class Configuration implements ConfigurationInterface
      */
     protected function addKeyStorageNode()
     {
-        $builder = new TreeBuilder();
-        $node    = $builder->root('key_storage', 'scalar');
+        $builder = new TreeBuilder('key_storage', 'scalar');
+        $node    = $builder->getRootNode();
 
         $node
             ->info('Class that is used to store your keys')
